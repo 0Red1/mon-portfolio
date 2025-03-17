@@ -13,6 +13,11 @@ header {
     z-index: 1000;
 }
 
+#logo {
+    width: 20px;
+    height: 20px;
+}
+
 nav ul {
     list-style: none;
     display: flex;
