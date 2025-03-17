@@ -13,9 +13,16 @@ header {
     z-index: 1000;
 }
 
-#logo {
-    width: 88px;
-    height: 67px;
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
 }
 
 nav ul {
