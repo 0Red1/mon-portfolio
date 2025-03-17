@@ -1,5 +1,6 @@
 #titre {
     font-style: normal;
+    color: white;
 }
 
 * {
@@ -9,7 +10,7 @@
 }
 
 header {
-    background-color: rgba(181, 14, 14, 0.444);
+    background-color: rgba(181, 14, 14, 1);
     padding: 8px 0;
     position: fixed;
     top: 0;
@@ -27,8 +28,8 @@ nav ul {
 nav ul li a {
     text-decoration: none;
     color: white;
-    font-size: 9px;
-    padding: 10px 15px;
+    font-size: 20px;
+    padding: 10px 30px;
     transition: 0.3s;
 }
 
