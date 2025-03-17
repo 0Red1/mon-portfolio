@@ -3,10 +3,30 @@
 }
 
 header {
-    background-color: red;
-    padding: 15px 0;
+    background-color: rgba(181, 14, 14, 0.444);
+    padding: 8px 0;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 9px;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+nav ul li a :hover {
+    background-color: #555;
+    border-radius: 5px;
 }
