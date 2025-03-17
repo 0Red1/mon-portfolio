@@ -2,6 +2,12 @@
     font-style: normal;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
     background-color: rgba(181, 14, 14, 0.444);
     padding: 8px 0;
@@ -29,4 +35,10 @@ nav ul li a {
 nav ul li a :hover {
     background-color: #555;
     border-radius: 5px;
+}
+
+main {
+    margin-top: 60px;
+    text-align: center;
+    padding: 20px;
 }
